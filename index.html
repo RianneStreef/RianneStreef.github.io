@@ -5,12 +5,103 @@
     <title>Rianne Streef</title>
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pathway+Gothic+One&display=swap"
       rel="stylesheet"
     />
     <script src="https://kit.fontawesome.com/6468bc3c55.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="background1">
+      <header id="header" class="header">
+        <nav>
+          <a href="#aboutMe" class="nav-link">About Me</a>
+          <a href="#myWork" class="nav-link">My Work</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="hero-title">
+            <h1>Rianne Streef</h1>
+            <hr class="main-hr" />
+            <h2>Web Developer</h2>
+          </div>
+          <div class="hero-contact">
+            <button>Contact me</button>
+            <div class="hero-icons">
+              <i class="fab fa-github-square contact-icon"></i>
+              <i class="fab fa-linkedin contact-icon"></i>
+            </div>
+          </div>
+        </section>
+        <section class="grey-background">
+          <h3 id="aboutMe">About Me</h3>
+          <hr class="h3-hr" />
+          <p>
+            In 2020 I decided to turn this negative COVID situation into a
+            positive experience and I started my education in web design and
+            development. Driven by my curiosity to create and innovate and my
+            passion for logic and coding I applied at OpenClassrooms. Fascinated
+            by new ideas, both in terms of development in familiar fields as in
+            new subjects. This, and being client oriented makes me widely
+            deployable. Now I have completed my education I want to show people
+            what I am capable of. Work in a team of people that are innovative,
+            enthusiastic and communicative. Motivated and ambitious to further
+            develop my skills and learn new techniques.
+          </p>
+        </section>
+        <section>
+          <div class="background2">
+            <h3 id="myWork">My Work</h3>
+            <hr class="h3-hr" />
+            <div class="work-wrapper">
+              <div class="OC-work">
+                <h4>OpenClassrooms projects</h4>
+              </div>
+              <div class="real-work">
+                <h4>Work experience</h4>
+              </div>
+            </div>
+            <section class="grey-background">
+              <h3 id="skills">My Skills</h3>
+              <hr class="h3-hr" />
+              <div class="cv-button-container">
+                <button>CV</button>
+              </div>
+              <div class="skills-icons">
+                <i class="fab fa-apple"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-angular"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-figma"></i>
+                <i class="fab fa-slack"></i>
+                <i class="fab fa-trello"></i>
+              </div>
+            </section>
+            <div class="background3">
+              <h3 id="contact">Contact</h3>
+              <hr class="h3-hr" />
+              <section class="contact">
+                <div
+                  class="elfsight-app-a06c4a25-1db0-4127-9045-8a0ba1052f36"
+                ></div>
+              </section>
+            </div>
+            <footer>
+              <p>Rianne Streef 2021</p>
+            </footer>
+            <script type="module" src="./src/script.js"></script>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
